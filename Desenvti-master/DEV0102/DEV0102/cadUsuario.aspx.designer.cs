@@ -123,6 +123,15 @@ namespace DEV0102
         protected global::System.Web.UI.WebControls.Button btnCadastrar;
 
         /// <summary>
+        /// Controle panelUsuariosCadastrados.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel panelUsuariosCadastrados;
+
+        /// <summary>
         /// Controle gridUsuario.
         /// </summary>
         /// <remarks>
@@ -130,6 +139,15 @@ namespace DEV0102
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gridUsuario;
+
+        /// <summary>
+        /// Controle btnAtualizar.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAtualizar;
 
         /// <summary>
         /// Controle hiddenfildCodigo.

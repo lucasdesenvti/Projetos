@@ -15,13 +15,13 @@
             <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
             <br />
             <label>Senha</label><br />
-            <asp:TextBox ID="txtSenha" TextMode="Password" runat="server"></asp:TextBox>
-            <br />
+            <asp:TextBox ID="txtSenha" TextMode="Password" runat="server"></asp:TextBox><br />
             <br />
             <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
             <br />
             <asp:LinkButton ID="btnEsqueciSenha" runat="server" Text="Esqueci a senha" OnClick="btnEsqueciSenha_Click"></asp:LinkButton>
-
+            <br />
+            <asp:Button ID="btnCadastro" runat="server" Text="Cadastrar-se" OnClick="btnCadastro_Click" OnClientClick="return confirm ('Deseja se Cadastrar?')" />
         </div>
     </form>
 </body>

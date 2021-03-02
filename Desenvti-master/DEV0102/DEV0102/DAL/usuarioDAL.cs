@@ -63,5 +63,12 @@ namespace DEV0102.DAL
                 ctx.SaveChanges();
             }
         }
+        public List<tabUsuario> listarTodosUsuarios()
+        {
+            using (DEV0102Entities ctx = new DEV0102Entities())
+            {
+                return ctx.tabUsuario.Where(campo => campo.codigo >= 1 ).ToList();
+            }
+        }
     }
 }
